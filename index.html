@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Психологическая помощь ветеранам</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Шапка -->
     <header class="header">
         <div class="container">
             <h1>Поддержка для тех, кто защищал мир</h1>
             <p>Профессиональная психологическая помощь для ветеранов войны</p>
+            <a href="#contact-section" class="btn btn-primary">Получить помощь</a>
         </div>
     </header>
 
+    <!-- Фильтры -->
     <section class="search-section">
         <div class="container">
             <h2>Найдите подходящего психолога</h2>
@@ -46,19 +50,22 @@
                     <option value="anxiety">Тревожность</option>
                 </select>
 
-                <button type="submit">Найти</button>
+                <button type="submit" class="btn btn-secondary">Найти</button>
             </form>
         </div>
     </section>
 
+    <!-- Скидка -->
     <section class="discount-section">
         <div class="container">
             <h2>Специальное предложение для ветеранов</h2>
-            <p>Ветераны войны получают скидку 20% на все услуги.</p>
+            <p>Ветераны войны получают скидку <strong>20%</strong> на все услуги.</p>
+            <div class="icon">%</div>
         </div>
     </section>
 
-    <section class="contact-section">
+    <!-- Форма контактов -->
+    <section class="contact-section" id="contact-section">
         <div class="container">
             <h2>Хотите узнать больше?</h2>
             <p>Оставьте свои контактные данные, и мы свяжемся с вами.</p>
@@ -66,14 +73,20 @@
                 <input type="text" id="name" placeholder="Ваше имя" required>
                 <input type="tel" id="phone" placeholder="Телефон" required>
                 <input type="email" id="email" placeholder="Email" required>
-                <button type="submit">Отправить</button>
+                <button type="submit" class="btn btn-accent">Отправить</button>
             </form>
         </div>
     </section>
 
+    <!-- Подвал -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2023 Психологическая помощь ветеранам. Все права защищены.</p>
+            <p>&copy; 2023 Психологическая помощь ветеранам</p>
+            <p>Email: support@example.com | Телефон: +7 (XXX) XXX-XX-XX</p>
+            <p>
+                <a href="#">Политика конфиденциальности</a> |
+                <a href="#">Условия использования</a>
+            </p>
         </div>
     </footer>
 
